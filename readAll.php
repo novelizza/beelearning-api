@@ -22,7 +22,7 @@ if($result){
         $data -> id = $row['id_siswa'];
         $data -> nama = $row['nama'];
         $data -> tempat = $row['tempat'];
-        $data -> tanggal = $row['taggal_lahir'];
+        $data -> tanggal = $row['tanggal_lahir'];
         $data -> nisn = $row['nisn'];
         $data -> gender = $row['gender'];
         $data -> kontaksiswa = $row['kontak_siswa'];
