@@ -12,6 +12,7 @@ class data {
     var $alamat;
     var $wali;
     var $kontakwali;
+    var $kelas;
  }
 
 $result = pg_query($dbconn,"SELECT * FROM siswa");
@@ -29,6 +30,7 @@ if($result){
         $data -> alamat = $row['alamat'];
         $data -> wali = $row['wali'];
         $data -> kontakwali = $row['kontak_wali'];
+        $data -> kelas = $row['kelas'];
 
         $array[] = $data;
     }
